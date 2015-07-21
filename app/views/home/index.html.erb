@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+
+      <%= form_tag("/results", method: "get") do %>
+        <div class="form-group">
+          <%= label_tag(:start_date, "Start Date:") %>
+          <%= date_field_tag(:start_date, nil, {class: "form-control"}) %>
+
+          <%= label_tag(:end_date, "End Date:") %>
+          <%= date_field_tag(:end_date, nil, {class: "form-control"}) %>
+        </div>
+        <%= submit_tag("Find Sundays!", {class: "btn btn-primary", id: "search-btn"}) %>
+      <% end %>
+
+    </div>
+  </div>
+</div>
