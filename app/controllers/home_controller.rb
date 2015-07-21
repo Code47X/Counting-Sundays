@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   def index
   end
 
-  def results
+  def show
     @sundays = 0
     @start_date = Date.parse(params[:start_date])
     @end_date = Date.parse(params[:end_date])
@@ -15,5 +15,5 @@ class HomeController < ApplicationController
       end
     end
   end
-
+  
 end
