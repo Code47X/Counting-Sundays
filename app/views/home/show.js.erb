@@ -1,1 +1,6 @@
-$('#show_results').empty().append('<%= j render("results") %>');
+$('#flash_msg').empty().append('<%= j render("shared/flash_messages") %>');
+$('#show_results').empty();
+
+<% if @has_valid_dates %>
+  $('#show_results').append('<%= j render("results") %>');
+<% end %>
