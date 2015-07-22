@@ -2,7 +2,7 @@
 
 == Description
 
-This is a little code exercise I was asked to do. It simply takes two dates input by a user and counts how many Sundays between them. 
+This is a little code exercise I was asked to do. It simply takes two dates input by a user and counts how many Sundays are between them. 
 
 == Run the Code
 
