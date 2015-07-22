@@ -1,28 +1,11 @@
-== README
+= Counting Sundays!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Description
 
-Things you may want to cover:
+This is a little code exercise I was asked to do. It simply takes two dates input by a user and counts how many Sundays between them. 
 
-* Ruby version
+== Run the Code
 
-* System dependencies
+This application has been delpoyed with Heroku! The easiest way to run Counting Sundays is to navigate to https://frozen-depths-3265.herokuapp.com/ This app uses the free version of Heroku so the Dyno will most likly be asleep, which will cause a slight increase in loading time (~5 sec.) the first time you visit.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Additionally you can clone the code from github and run it locally if you have a rails development environment set up.
