@@ -8,10 +8,10 @@
 
       <%= form_tag("/results", method: "get", remote: true) do %>
         <div class="form-group">
-          <%= label_tag(:start_date, "Start Date:") %>
+          <%= label_tag(:start_date, "Start Date: (MM/DD/YYYY)") %>
           <%= date_field_tag(:start_date, nil, {class: "form-control"}) %>
 
-          <%= label_tag(:end_date, "End Date:") %>
+          <%= label_tag(:end_date, "End Date: (MM/DD/YYYY)") %>
           <%= date_field_tag(:end_date, nil, {class: "form-control"}) %>
         </div>
         <%= submit_tag("Find Sundays!", {class: "btn btn-primary", id: "search-btn"}) %>
